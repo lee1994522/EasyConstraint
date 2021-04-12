@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EasyConstraint_Tests' do
+  pod 'EasyConstraint', :path => '../'
+  
+  
+end
