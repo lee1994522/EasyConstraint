@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyConstraint'
-  s.version          = '0.3.0'
+  s.version          = '1.0.0'
   s.summary          = 'Provide some useful APIs for creating iOS layout constraints.'
 
 # This description is used to generate tags and improve search results.
