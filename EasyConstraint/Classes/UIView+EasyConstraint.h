@@ -1,4 +1,3 @@
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -47,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSArray<NSLayoutConstraint *> *)setMarginToViewBelow:(UIView *)view value:(CGFloat)value;
 
-//- (void)animateWithChange:(void (^)(void))change duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay options:(UIViewAnimationOptions)options completion:(void (^ __nullable)(BOOL finished))completion;
+- (BOOL)belongsToViewController;
 
 @end
 
