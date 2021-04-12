@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EasyConstraint'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EasyConstraint.'
+  s.summary          = 'Provide some useful APIs for creating iOS layout constraints.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/lee1994522/EasyConstraint'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lee1994522' => 'wingedli@tencent.com' }
+  s.author           = { 'lee1994522' => '839273739@qq.com' }
   s.source           = { :git => 'https://github.com/lee1994522/EasyConstraint.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -36,7 +36,6 @@ TODO: Add long description of the pod here.
   #   'EasyConstraint' => ['EasyConstraint/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'EasyConstraint/Classes/*.h'
+  s.frameworks = 'UIKit'
 end

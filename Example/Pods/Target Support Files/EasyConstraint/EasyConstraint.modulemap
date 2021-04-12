@@ -1,0 +1,6 @@
+framework module EasyConstraint {
+  umbrella header "EasyConstraint-umbrella.h"
+
+  export *
+  module * { export * }
+}

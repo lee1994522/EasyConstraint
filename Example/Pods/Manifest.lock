@@ -1,0 +1,16 @@
+PODS:
+  - EasyConstraint (0.1.0)
+
+DEPENDENCIES:
+  - EasyConstraint (from `../`)
+
+EXTERNAL SOURCES:
+  EasyConstraint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyConstraint: 7c71600b7012d24e13da0a5c370bc0c4c4f1c762
+
+PODFILE CHECKSUM: fedfa8bee40d43a3ebfe7dd779be876a321a7b92
+
+COCOAPODS: 1.10.1

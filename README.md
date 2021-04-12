@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/EasyConstraint.svg?style=flat)](https://cocoapods.org/pods/EasyConstraint)
 [![Platform](https://img.shields.io/cocoapods/p/EasyConstraint.svg?style=flat)](https://cocoapods.org/pods/EasyConstraint)
 
-## Example
+## Introduction
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Provide some useful APIs for creating iOS layout constraints.
 
 ## Requirements
 
@@ -22,7 +22,7 @@ pod 'EasyConstraint'
 
 ## Author
 
-lee1994522, wingedli@tencent.com
+lee1994522, 839273739@qq.com
 
 ## License
 

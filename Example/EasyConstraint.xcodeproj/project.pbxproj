@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E87346C607EF278F0CFEEAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3E87346C607EF278F0CFEEAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		43A78E9AEB4A1FFC433A7F73 /* Pods-EasyConstraint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyConstraint_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EasyConstraint_Tests/Pods-EasyConstraint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -27,10 +27,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7A454AB3E31E8FBCF8BA7659 /* EasyConstraint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasyConstraint.podspec; path = ../EasyConstraint.podspec; sourceTree = "<group>"; };
+		7A454AB3E31E8FBCF8BA7659 /* EasyConstraint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyConstraint.podspec; path = ../EasyConstraint.podspec; sourceTree = "<group>"; };
 		D2B52D1D8C9A7A850CD9251A /* Pods_EasyConstraint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyConstraint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79A001CDA81467871DB1742 /* Pods-EasyConstraint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyConstraint_Tests.release.xcconfig"; path = "Target Support Files/Pods-EasyConstraint_Tests/Pods-EasyConstraint_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EECC34552625357EA9D0400B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EECC34552625357EA9D0400B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0C279F826246B95004AE4CB /* UIView+EasyConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyConstraint.m"; sourceTree = "<group>"; };
+		F0C279F926246B95004AE4CB /* UIView+EasyConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyConstraint.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				F0C279F726246B31004AE4CB /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -114,8 +117,16 @@
 				43A78E9AEB4A1FFC433A7F73 /* Pods-EasyConstraint_Tests.debug.xcconfig */,
 				E79A001CDA81467871DB1742 /* Pods-EasyConstraint_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0C279F726246B31004AE4CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0C279F926246B95004AE4CB /* UIView+EasyConstraint.h */,
+				F0C279F826246B95004AE4CB /* UIView+EasyConstraint.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

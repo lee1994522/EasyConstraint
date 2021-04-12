@@ -1,0 +1,22 @@
+{
+  "name": "EasyConstraint",
+  "version": "0.1.0",
+  "summary": "A short description of EasyConstraint.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lee1994522/EasyConstraint",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lee1994522": "wingedli@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/lee1994522/EasyConstraint.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "EasyConstraint/Classes/**/*"
+}
