@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Provide some useful APIs for creating iOS layout constraints.
+Provide some useful APIs for creating iOS auto layout constraints.
 
 ## Requirements
 
