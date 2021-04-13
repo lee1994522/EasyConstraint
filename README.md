@@ -9,8 +9,6 @@
 
 Provide some useful APIs for creating iOS auto layout constraints.
 
-## Requirements
-
 ## Installation
 
 EasyConstraint is available through [CocoaPods](https://cocoapods.org). To install
